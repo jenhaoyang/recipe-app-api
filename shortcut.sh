@@ -1,1 +1,1 @@
-sudo docker-compose run app sh -c "python manage.py test"
+sudo docker-compose run app sh -c "python manage.py test && flake8"
